@@ -19,9 +19,18 @@ li {
   padding: 1%;
 }
 
-.nav {
+/* .nav {
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+#home {
+  font-size: 200%;
+}
+
+.nav-options {
+  /* display: flex; */
+  align-items: center;
 }
 
 .App {
@@ -56,7 +65,7 @@ li {
 .App-link {
   color: #61dafb;
 }
-
+/* 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -64,7 +73,7 @@ li {
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* @media (max-width: 699px) {
 } */
