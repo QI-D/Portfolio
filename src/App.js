@@ -1,22 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+import Qi from './Qi.JPG';
 import './App.css';
+import Typical from 'react-typical';
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <img src={Qi} className="App-logo" alt="logo" />
+
+        <h1>Hi, I am Qi Dang </h1>
+        <p>I am a {' '}
+          <Typical 
+            loop={Infinity}
+            wrapper="b"
+            steps={[
+              'Software Developer',
+              1500,
+              'Full Stack Developer',
+              1500,
+              'System Engineer',
+              1500
+            ]}
+          />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
