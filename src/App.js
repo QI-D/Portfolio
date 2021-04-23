@@ -1,5 +1,5 @@
 import React from 'react';
-import Qi from './Qi.JPG';
+import Qi from './Images/Qi.JPG';
 import './App.css';
 import Typical from 'react-typical';
 
