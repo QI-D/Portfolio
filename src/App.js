@@ -18,7 +18,7 @@ function App() {
 
             {/* <ReactBootStrap.Nav.Link href="/projects">Projects</ReactBootStrap.Nav.Link> */}
             <ReactBootStrap.Nav.Link href="https://github.com/QI-D" target="_blank" rel="noreferrer">GitHub</ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="https://www.linkedin.com/in/qi-dang-84594311b/" target="_blank" rel="noreferrer">LinkedIn</ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link href="https://www.linkedin.com/in/qi-dang/" target="_blank" rel="noreferrer">LinkedIn</ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link href="/Qi_Dang_Resume.pdf" target="_blank">Resume</ReactBootStrap.Nav.Link>
           </ReactBootStrap.Nav>
         </ReactBootStrap.Navbar.Collapse>
